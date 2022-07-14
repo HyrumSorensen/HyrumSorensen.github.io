@@ -300,27 +300,28 @@ body{
 }
 
 .skills .content .col-right .bar .html:before{
-  width: 95%;
+  width: 100%;
   background: #e45126;
 }
 
 .skills .content .col-right .bar .css:before{
-  width: 90%;
+  width: 100%;
   background: #0c73b8;
 }
 
 .skills .content .col-right .bar .javascript:before{
-  width: 80%;
+  width: 100%;
   background: #e3a324;
 }
 
 .skills .content .col-right .bar .jquery:before{
-  width: 80%;
+  width: 100%;
   background: #30dd6d;
 }
 
 .skills .content .col-right .bar .php:before{
-  width: 75%;
+    /* change each of these to get percentages */
+  width: 100%;
   background: #6d7eb8;
 }
 

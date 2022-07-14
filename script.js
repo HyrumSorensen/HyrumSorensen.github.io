@@ -51,3 +51,9 @@
             }
           }
                 
+document.getElementById('project-1').addEventListener('click', () => {
+    location.href = 'https://mewsika.herokuapp.com';
+})
+document.getElementById('project-2').addEventListener('click', () => {
+    location.href = 'https://github.com/HyrumSorensen/CS236-Datalog-Program';
+})
