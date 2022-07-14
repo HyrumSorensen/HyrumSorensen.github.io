@@ -7,6 +7,31 @@
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
+#insta {
+    height: 50px;
+    width:  50px;
+    margin-left: 30px;
+}
+#facebook {
+    height: 65px;
+    width:  65px;
+    margin-left: 30px;
+}
+#git-hub {
+    height: 77px;
+    width:  77px;
+    margin-left: 30px;
+}
+#discord {
+    height: 60px;
+    width:  60px;
+    margin-left: 30px;
+}
+#venmo {
+    height: 49px;
+    width:  49px;
+    margin-left: 30px;
+}
 
 section{
   padding: 100px 200px;
@@ -697,28 +722,3 @@ body{
   opacity: 1;
 }
 
-#insta {
-    height: 50px;
-    width:  50px;
-    margin-left: 30px;
-}
-#facebook {
-    height: 65px;
-    width:  65px;
-    margin-left: 30px;
-}
-#git-hub {
-    height: 77px;
-    width:  77px;
-    margin-left: 30px;
-}
-#discord {
-    height: 60px;
-    width:  60px;
-    margin-left: 30px;
-}
-#venmo {
-    height: 49px;
-    width:  49px;
-    margin-left: 30px;
-}
