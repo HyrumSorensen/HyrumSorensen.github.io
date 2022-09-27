@@ -52,41 +52,41 @@
           }
                 
 document.getElementById('project-1').addEventListener('click', () => {
-    location.href = 'https://mewsika.herokuapp.com';
+    window.open('https://mewsika.herokuapp.com', '_blank')
 })
 document.getElementById('project-2').addEventListener('click', () => {
-    location.href = 'https://github.com/HyrumSorensen/CS236-Datalog-Program';
+    window.open('https://github.com/HyrumSorensen/CS236-Datalog-Program', '_blank')
 })
 document.getElementById('email-icon').addEventListener('click', () => {
     let link = 'mailto:hgsoren@byu.edu'
-    location.href = link;
+    window.open(link, '_blank')
 })
 document.getElementById('website-icon').addEventListener('click', () => {
     let link = 'https://hyrumsorensen.github.io'
-    location.href = link;
+    window.open(link, '_blank')
 })
 
 document.getElementById('address-icon').addEventListener('click', () => {
     let link = 'https://www.google.com/maps/place/Provo,+UT/@40.2572423,-111.9260001,11z/data=!3m1!4b1!4m5!3m4!1s0x874d9271930bf1bf:0x1d90f12600b556ef!8m2!3d40.2338438!4d-111.6585337'
-    location.href = link;
+    window.open(link, '_blank')
 })
 document.getElementById('insta').addEventListener('click', () => {
     let link = 'https://www.instagram.com/hyrum_sorensen/'
-    location.href = link;
+    window.open(link, '_blank')
 })
 document.getElementById('git-hub').addEventListener('click', () => {
     let link = 'https://github.com/HyrumSorensen'
-    location.href = link;
+    window.open(link, '_blank')
 })
 document.getElementById('discord').addEventListener('click', () => {
     let link = 'https://discordapp.com/users/9609/'
-    location.href = link;
+    window.open(link, '_blank')
 })
 document.getElementById('facebook').addEventListener('click', () => {
     let link = 'https://www.facebook.com/hyrumgary/'
-    location.href = link;
+    window.open(link, '_blank')
 })
 document.getElementById('venmo').addEventListener('click', () => {
     let link = 'https://account.venmo.com/u/Hyrum-Sorensen'
-    location.href = link;
+    window.open(link,'_blank')
 })
